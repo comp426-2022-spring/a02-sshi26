@@ -8,5 +8,4 @@ inputNumber = (myArgs.length == 0 || myArgs[0].length <= 9) ? 1 : parseInt(myArg
 
 const results = coinFlips(inputNumber); 
 const counts = countFlips(results); 
-console.log(results); 
-console.log(counts); 
+console.log(results, counts);  
